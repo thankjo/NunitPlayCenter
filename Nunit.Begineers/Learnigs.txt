@@ -8,3 +8,4 @@
 #learn : onetime setup and onetime tear down > execute at the beginning and end of the project
 #learn : TestFixture > before test class
 #learn : SetUpFixture > before setup class
+#learn : Parametrized testcase > Same test case executing with different parameters
