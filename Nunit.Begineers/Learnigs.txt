@@ -1,2 +1,4 @@
 ﻿#issue : debugging is not working after writing the first test case
 #soln : TestAdapter was missing in packages.config.
+#learn : textcontext.progress.writeline will help you to output the information
+	   : over riding the class level author with child level author

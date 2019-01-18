@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Nunit.Begineers
 {
+    [Author("thankjo", "thankjo@gmail.com")]
     class TimeSheetTest
     {
         [TestCase,Order(1)]
@@ -27,6 +28,7 @@ namespace Nunit.Begineers
             TestContext.Progress.WriteLine("Executing ApproveTimeSheet test cases");
         }
 
+        [Author("anotherdev", "anotherdev@gmail.com")]
         [TestCase, Order(3)]
         public void RejectTimeSheet()
         {
