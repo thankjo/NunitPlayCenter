@@ -1,0 +1,2 @@
+﻿#issue : debugging is not working after writing the first test case
+#soln : TestAdapter was missing in packages.config.
