@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace Nunit.Begineers
 {
     [Author("thankjo", "thankjo@gmail.com")]
+    [TestFixture]
     class ExpenseReport
     {
         [TestCase,Order(1),Description("Expense Report Submissions")]

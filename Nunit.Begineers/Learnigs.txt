@@ -5,3 +5,6 @@
 #learn : author attribute >over riding the class level author with child level author
 #learn : setup > function will execute before every test case
 #learn : teardown > function will execute after every test case
+#learn : onetime setup and onetime tear down > execute at the beginning and end of the project
+#learn : TestFixture > before test class
+#learn : SetUpFixture > before setup class
