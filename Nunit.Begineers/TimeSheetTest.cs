@@ -34,5 +34,17 @@ namespace Nunit.Begineers
         {
             TestContext.Progress.WriteLine("Executing RejectTimeSheet test cases");
         }
+
+        [SetUp]
+        public void OpenDriver()
+        {
+            TestContext.Progress.WriteLine("open the driver with this testcase");
+        }
+
+        [TearDown]
+        public void CloseDriver()
+        {
+            TestContext.Progress.WriteLine("Close the driver with this testcase");
+        }
     }
 }
