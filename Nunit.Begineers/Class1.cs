@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nunit.Begineers
 {
-    public class Class1
-    {
+    public class NUnitStartup
+    { 
     }
 }
