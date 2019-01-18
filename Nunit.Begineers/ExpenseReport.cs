@@ -11,13 +11,13 @@ namespace Nunit.Begineers
     [TestFixture]
     class ExpenseReport
     {
-        [TestCase,Order(1),Description("Expense Report Submissions")]
+        [TestCase,Order(1),Description("Expense Report Submissions"),Explicit]
         public void SubmitExpensereport()
         {
             TestContext.Progress.WriteLine("executing SubmitExpensereport");
         }
 
-        [TestCase, Order(2), Description("Expense Report approval")]
+        [TestCase, Order(2), Description("Expense Report approval"),Ignore("Not in Use")]
         public void ApproveExpensereport()
         {
             TestContext.Progress.WriteLine("executing ApproveExpensereport");

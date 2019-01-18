@@ -21,9 +21,9 @@ namespace Nunit.Begineers
         
        
         [TestCase]
-        public void PasswordRecovery(string email, string mobile)
+        public void PasswordRecovery()
         {
-
+            Assert.Warn("The function is not in use");
         }
     }
 }

@@ -9,3 +9,6 @@
 #learn : TestFixture > before test class
 #learn : SetUpFixture > before setup class
 #learn : Parametrized testcase > Same test case executing with different parameters
+#learn : Assert.Warn > write warnings inside test case
+#learn : Ignore > Will ignore the test case
+#learn : Explicit > we have to run the test case explicitly
