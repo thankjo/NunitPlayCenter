@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BeginnerStartup.cs" />
+    <Compile Include="DataDrivenTests.cs" />
     <Compile Include="ExpenseReport.cs" />
     <Compile Include="LogInTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

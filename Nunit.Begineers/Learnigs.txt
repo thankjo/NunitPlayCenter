@@ -12,3 +12,4 @@
 #learn : Assert.Warn > write warnings inside test case
 #learn : Ignore > Will ignore the test case
 #learn : Explicit > we have to run the test case explicitly
+#learn : TestCaseSource > use [Test] instead of [TestCase]
